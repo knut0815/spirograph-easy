@@ -224,7 +224,8 @@
 		
 		//iFrame handler
 		var pymChild = new pym.Child();
-		//pymChild.sendHeight();
+		pymChild.sendHeight();
+		setTimeout(function() { pymChild.sendHeight(); }, 1000);
 		setTimeout(function() { pymChild.sendHeight(); }, 3000);
 		
 	</script>
